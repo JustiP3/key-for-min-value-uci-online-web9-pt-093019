@@ -16,11 +16,11 @@ array_of_values << value
 end 
 
 i = 0 
-greatest_value = 0 
-index_of_greatest = 0 
+smallest_value = 0 
+index_of_smallest = 0 
 
 array_of_values.each do |x|
-  if x > greatest_value
+  if x < smallest_value
     greatest_value = x 
     index_of_greatest = i 
   end
