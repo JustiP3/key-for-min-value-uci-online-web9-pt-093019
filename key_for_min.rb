@@ -24,7 +24,7 @@ array_of_values.each do |x|
     smallest_value = x 
   end 
   if x < smallest_value
-    greatest_value = x 
+    smallest_value = x 
     index_of_greatest = i 
   end
   
