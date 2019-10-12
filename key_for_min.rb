@@ -15,5 +15,11 @@ array_of_keys << name
 array_of_values << value 
 end 
 
+i = 0 
+greatest_value = 0 
+index_of_greatest = 0 
+
+array_of_keys.each do |x|
+  
 return array_of_keys.last 
 end
