@@ -25,11 +25,10 @@ array_of_values.each do |x|
   end 
   if x < smallest_value
     smallest_value = x 
-    index_of_greatest = i 
+    index_of_smallest = i 
   end
-  
   i += 1 
 end
 
-return array_of_keys[index_of_greatest]
+return array_of_keys[index_of_smallest]
 end
