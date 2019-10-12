@@ -16,10 +16,13 @@ array_of_values << value
 end 
 
 i = 0 
-smallest_value = 0 
+smallest_value = nil 
 index_of_smallest = 0 
 
 array_of_values.each do |x|
+  if smallest_value == nil 
+    smallest_value = x 
+  end 
   if x < smallest_value
     greatest_value = x 
     index_of_greatest = i 
